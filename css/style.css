@@ -4,7 +4,7 @@ body {
 	font-family: 'Lato', Helvetica Neue, Helvetica, sans-serif;
 }
 
-/* Structure */
+/* Global Structure */
 .container {
 	max-width: 960px;
 	margin: auto;
@@ -12,17 +12,9 @@ body {
 }
 
 .header {
-	max-width: 175px;
 	margin: 0 auto;
 	padding: 0 auto;
 	text-align: center;
-}
-
-.experience, .education{
-	width: 500px;
-	margin: 0 auto;
-	padding: 0 auto;
-	text-align: left;
 }
 
 .header img {
@@ -30,24 +22,9 @@ body {
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 }
-
-/* Experience */
-.experience img {
-	float: left;
-	width: 70px;
-	height: 70px;
-	margin-top: -5px;
-	margin-right:10px;
+label {
+	margin-right: 10px;
 }
-/* Education */
-.education img {
-	float: left;
-	width: 70px;
-	height: 70px;
-	margin-top: -5px;
-	margin-right:10px;
-}
-
 
 /* Text Styling */
 h1 {
@@ -61,6 +38,51 @@ h2 {
 li{
 	list-style-type: none;
 }
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:active{
+	color: black;
+}
+a:hover{
+	color: #ADAEB8;
+}
+p{
+	font-size: 16px;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+
+
+/* Index Style */
+.links {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.links ul {
+	float: left;
+}
+.links li {
+	padding-left: 15px;
+	display: inline-block;
+}
+#about {
+	margin-top: 60px;
+}
+
+/* Resume Styling */
+
+.experience, .education{
+	width: 450px;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: left;
+}
+
 .top-list {
 	font-size: 20px;
 }
@@ -71,7 +93,24 @@ li{
 	font-weight: 300;
 }
 
-/* List Styling */
-ul {
-	margin-top: 50px;
+/* Experience */
+.experience img {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-top: -5px;
+	margin-right:10px;
 }
+
+
+/* Education */
+.education img {
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-top: -5px;
+	margin-right:10px;
+}
+
+
+
